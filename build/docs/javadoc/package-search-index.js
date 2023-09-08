@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"co.edu.uco.comun.exceptions"},{"l":"co.edu.uco.comun.handler"},{"l":"co.edu.uco.comun.validator"}];updateSearchResults();

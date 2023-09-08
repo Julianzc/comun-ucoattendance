@@ -1,0 +1,14 @@
+-classpath 'D:\\Usuario\\Documents\\comun-ucoattendance\\build\\classes\\java\\main;D:\\Usuario\\Documents\\comun-ucoattendance\\build\\resources\\main;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-tx\\6.0.11\\59cd03d2ba6968ade8c192b4d6488efb48ec36f\\spring-tx-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-context\\6.0.11\\a7b10f3d3c1492bfc4e6d7c966cd2e21f4d441f5\\spring-context-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-aop\\6.0.11\\15b85c825558fadb85e3c77779d7225ce7e4a7bc\\spring-aop-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-beans\\6.0.11\\8513efc6e94b407b5cd85f69eeec511f1ef34164\\spring-beans-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-expression\\6.0.11\\1d0940120a275719c3988c592068f4acf807fe59\\spring-expression-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-core\\6.0.11\\87834b5cf95c6fa28f5bdf8a85e0daf0bff918a8\\spring-core-6.0.11.jar;C:\\gradle\\gradle-8.2.1\\caches\\modules-2\\files-2.1\\org.springframework\\spring-jcl\\6.0.11\\c9b16cdb6d4874ba4118fcdd4b0335f6278b378\\spring-jcl-6.0.11.jar'
+-d 'D:\\Usuario\\Documents\\comun-ucoattendance\\build\\docs\\javadoc'
+-doctitle 'comun-ucoattendance 1.0 API'
+-notimestamp 
+-quiet 
+-windowtitle 'comun-ucoattendance 1.0 API'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\exceptions\\DuplicityException.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\exceptions\\InvalidValueException.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\exceptions\\LenghtValueException.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\exceptions\\RequiredValueException.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\handler\\CommandHandler.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\handler\\CommandResponse.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\handler\\CommandResponseHandler.java'
+'D:\\Usuario\\Documents\\comun-ucoattendance\\src\\main\\java\\co\\edu\\uco\\comun\\validator\\ArgumentValidator.java'
