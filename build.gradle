@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.github.jitpack'
+group 'co.edu.uco.comun'
 version '1.0'
 sourceCompatibility= '17'
 
@@ -22,27 +22,22 @@ java {
 }
 
 publishing {
-
-    publications {
-        maven(MavenPublication) {
-            from components.java
-            groupId = 'com.github.jitpack'
-            artifactId = 'comun-ucoattendance'
-            version = '1.0'
-        }
-    }
-
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/Julianzc/ucoattendance-comun"
+            url = uri("https://maven.pkg.github.com/Julianzc/ucoattendance-comun")
             credentials {
-                username = 'Julianzc'
-                password = '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'
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
 
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
 
 }
 
