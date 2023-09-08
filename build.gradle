@@ -38,7 +38,7 @@ publishing {
             url = "https://maven.pkg.github.com/Julianzc/ucoattendance-comun"
             credentials {
                 username = 'Julianzc'
-                password = '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'
+                password = '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'
             }
         }
     }
