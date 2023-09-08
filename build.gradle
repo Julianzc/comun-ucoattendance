@@ -1,25 +1,37 @@
 plugins {
     id 'java'
-    id 'eclipse'
     id 'maven-publish'
 }
 
-group 'ucoattendance-comun'
+group 'com.github.jitpack'
 version '1.0'
 sourceCompatibility= '17'
 
 repositories {
-    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     implementation group: 'org.springframework', name: 'spring-tx', version: '6.0.11'
     implementation group: 'org.springframework', name: 'spring-context', version: '6.0.11'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }
 
-test {
-    useJUnitPlatform()
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/julianzc/ucoattendance-comun"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+
 }
