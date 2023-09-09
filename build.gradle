@@ -7,8 +7,6 @@ group 'co.edu.uco.comun'
 version '1.0'
 sourceCompatibility= '17'
 
-gpr.user = "julianzc"
-
 repositories {
     mavenCentral()
 }
