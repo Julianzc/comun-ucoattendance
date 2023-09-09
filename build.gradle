@@ -22,23 +22,23 @@ java {
 }
 
 publishing {
-    publications {
-        gpr(MavenPublication) {
-            from(components.java)
-        }
-    }
-
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/julianzc/ucoattendance-comun")
+            url = "https://maven.pkg.github.com/julianzc/comun-ucoattendance"
             credentials {
-                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
-                password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
 
+
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
 }
 
 wrapper {
